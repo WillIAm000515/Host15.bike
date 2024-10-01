@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link src="05.style.css" rel="Stylesheet" type="text/css" />
+    <title>Week 3</title>
+  </head>
+  <body>
+    <p id="FirstWord">OLA</p>
+    <button onclick="ChangeWord();">Click Me</button>
+    <p id="SW">OLA means awe</p>
+    <button onclick="ChangeStyles();">Change</button>
+    <p id="TW">Talisman's World</p>
+    <br>
+    <button onclick="show()">Show</button>
+    <img src="https://th.bing.com/th?q=Sidemen+Background&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-ZA&cc=ZA&setlang=en&adlt=moderate&t=1&mw=247">
+    <button onclick="hide()">Hide</button>
+
+    
+    <script type="text/javascript">
+        //Making a simle alert box
+      alert("This is Sparta!!");
+      function ChangeWord(){
+
+        document.getElementById("FirstWord").innerHTML="ChangeyourGK"
+      }
+      //its a
+      function ChangeStyles(){
+        document.getElementById("SW").style.fontSize="90px";
+        document.getElementById("SW").style.fontStyle="Italic";
+        document.getElementById("SW").style.color="red";
+        document.getElementById("SW").style.backgroundColor="Aqua";
+        document.getElementById("TW").style.color="Blue";
+
+    }
+      function show(){document.getElementById("TW").style.display="block";
+
+      }
+
+
+      function hide(){document.getElementById("TW").style.display="none";
+
+
+
+      }
+      
+      
+    </script>
+  </body>
+</html>
